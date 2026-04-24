@@ -1,0 +1,119 @@
+/* ===================== GLOBAL ===================== */
+.scene, .add_user, .welcome-page, .view_profile, .edit_profile,
+.LanguageTranslation, .forgot_PassWord, .otp_send, .update-password {
+    -fx-background-color: #f5f7fb;
+    -fx-font-family: "Segoe UI";
+}
+
+/* ===================== HEADINGS ===================== */
+.welcome, .welcome_Label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.welcome_Label {
+    -fx-font-size: 26px;
+}
+
+/* ===================== LABEL STYLES ===================== */
+.email, .password, .mailId, .language, .name {
+    -fx-font-size: 16px;
+    -fx-text-fill: #34495e;
+    -fx-font-weight: 600;
+}
+
+/* ===================== TEXTFIELDS ===================== */
+.text-field, .password-field, .pass-field {
+    -fx-pref-height: 38px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #bdc3c7;
+}
+
+/* ===================== BUTTONS ===================== */
+.login {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 8;
+}
+
+.signUp {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 8;
+}
+
+.forgot_password {
+    -fx-background-color: #e67e22;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 8;
+}
+
+/* ===================== TRANSLATION BUTTON ===================== */
+.translate {
+    -fx-background-color: #8e44ad;
+    -fx-text-fill: white;
+    -fx-padding: 10 25;
+    -fx-background-radius: 10;
+    -fx-font-size: 14px;
+}
+
+/* ===================== BACK BUTTON ===================== */
+.backButton {
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
+
+/* ===================== UPDATE / EDIT ===================== */
+.update_profile, .update_password {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-padding: 10 25;
+}
+
+/* ===================== OTP BUTTON ===================== */
+.OTP_Button, .verify_otp {
+    -fx-background-color: #f39c12;
+    -fx-text-fill: white;
+}
+
+/* ===================== TABLE ===================== */
+.table-view {
+    -fx-border-color: #ccc;
+}
+
+/* ===================== PROFILE ===================== */
+.view_profile {
+    -fx-background-color: #ecf0f1;
+}
+
+/* ===================== ICON TEXT ===================== */
+.enterText, .enter_otp, .resText {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+/* ===================== COMBOBOX ===================== */
+.combo-box {
+    -fx-pref-height: 38px;
+}
+
+/* ===================== WELCOME PAGE BUTTONS ===================== */
+.translation, .history, .feedback {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-padding: 12 20;
+    -fx-background-radius: 10;
+}
+
+/* ===================== HOVER EFFECT ===================== */
+.button:hover {
+    -fx-opacity: 0.85;
+    -fx-cursor: hand;
+}
