@@ -31,4 +31,4 @@ A JavaFX desktop application that allows users to translate text between multipl
 ---
 
 ## 👩‍💻 Author
-Developed by Saritha
+Developed by Thenmozhi
